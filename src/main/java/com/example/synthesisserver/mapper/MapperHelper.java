@@ -8,8 +8,9 @@ import org.springframework.stereotype.Component;
 public class MapperHelper {
     public SynthesisDTO getOutputFrom(SynthesisEntity synthesisEntity){
         return SynthesisDTO.builder()
-                .winCount(synthesisEntity.getWinCount())
-                .lostCount(synthesisEntity.getLostCount())
+                .id(synthesisEntity.getId())
+//                .winCount(synthesisEntity.getWinCount())
+//                .lostCount(synthesisEntity.getLostCount())
                 .build();
     }
 }
