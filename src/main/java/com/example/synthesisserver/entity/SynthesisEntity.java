@@ -15,6 +15,4 @@ public class SynthesisEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long userId;
-    private Integer winCount;
-    private Integer lostCount;
 }
